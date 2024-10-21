@@ -3,3 +3,10 @@ Text p\ commit
 -1º add ao Gitigone e depois ADD o arquivo e notara que não está monitorada pelo GIT 
 (Sendo ignorado pelo GIT usando o Gitigone)
 
+Voltar todos os COMMITS antes do PUSH 
+    GIT reset --hard origin/master (Retorna a pasta local a ultimo PULL)
+
+GIT branch (Lista os branches do REP. atual)
+Criar branches : git branche Criando_ela
+
+Git branch -d ou --delete Criando_ela (Quando foi criado errado...)
