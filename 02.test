@@ -10,3 +10,5 @@ GIT branch (Lista os branches do REP. atual)
 Criar branches : git branche Criando_ela
 
 Git branch -d ou --delete Criando_ela (Quando foi criado errado...)
+
+git merge <nome> (Unindo Brench)
