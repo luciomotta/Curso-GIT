@@ -4,5 +4,9 @@ Text p\ commit
 (Sendo ignorado pelo GIT usando o Gitigone)
 
 
+<<<<<<< Updated upstream
 Bla bla 
 
+=======
+Vamos para a 2º
+>>>>>>> Stashed changes
