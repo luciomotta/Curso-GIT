@@ -13,3 +13,19 @@ Criar branches : git branche Criando_ela
 Git branch -d ou --delete Criando_ela (Quando foi criado errado...)
 
 git merge <nome> (Unindo Brench)
+
+git stash [Recomeçar jogando na "Lixeira" podendo recuperar depois]
+
+git stash list [Traz todos] 
+git stash apply <nº> [Recupera a solução jogada no 'LIXO']
+git stash show -p <nº> [Mostra as alterações]
+
+git stash clear
+
+git stash drop stash@{0}
+
+git tag -a <nome> -m <msg> [CheckPoint de uma branch]
+
+git tag show <nome>
+git tag checkout <nome>
+
