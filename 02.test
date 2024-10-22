@@ -62,15 +62,26 @@ git tag checkout <nome>
 
 -- Atualizar código (Git fetch + git pull)
 
+--Git remote (Modificar a URL do repositorio) remore a origin == URL e parear com um novo servidor
+ <Git remote RM origin ---> Remove a URL> <ADDA: >  git remote add <name> <url>
+    (git remote add origin https://github.com/luciomotta/Curso-GIT.git)
 
+____________________________________ SubMódulo ______________________________________
 
-
-
-
-
-
+git submodulo
+        git submodule add <URL rep Clone> submodulo(Nome)
+    Ter outro peojto externo 
 
     Com o --set-upstream, você indica explicitamente para o Git qual branch remota deve ser o destino padrão para git push e git pull a partir de então.
 Quando você quer configurar automaticamente o tracking:
 
 Quando você usa git push --set-upstream, o Git configura automaticamente o "tracking" entre a sua branch local e a branch remota, o que significa que nas próximas vezes você pode simplesmente usar git push ou git pull sem precisar especificar o nome da branch.
+
+
+----------------------------Análises de Expensão ---------------------------------------
+
+git show (INF do branch atual .... log bem detalhado)
+    -Pode ser usado em uma tag
+
+git diff (ver diferença de arquivo ou branch)
+
