@@ -1,5 +1,25 @@
-Text p\ commit
- 
+# 1. Iniciar um repositório Git local
+git init
+
+# 2. Clonar um repositório existente
+git clone <URL_DO_REPOSITORIO>
+
+# 3. Verificar o status do repositório
+git status
+
+# 4. Adicionar arquivos para commit
+git add .
+
+# 5. Fazer um commit com mensagem
+git commit -m "Descrição das mudanças"
+
+# 6. Enviar mudanças para o repositório remoto
+git push origin <nome_da_branch>
+
+# 7. Puxar as últimas mudanças do repositório remoto
+git pull origin <nome_da_branch>
+
+
 -1º add ao Gitigone e depois ADD o arquivo e notara que não está monitorada pelo GIT 
 (Sendo ignorado pelo GIT usando o Gitigone)
 
@@ -11,9 +31,10 @@ GIT branch (Lista os branches do REP. atual)
 Criar branches : git branche Criando_ela
 
 Git branch -d ou --delete Criando_ela (Quando foi criado errado...)
-
+-----------------Git checkout <branch> Mudar de branches ---------------------
 git merge <nome> (Unindo Brench)
-
+-------------**************************______________________________
+Git Stash: É utilizado para salvar temporariamente mudanças que você ainda não quer commitar, mas também não quer perder. Ele guarda as alterações locais (não commitadas) em uma área temporária, permitindo que você volte a um estado "limpo" da branch ou troque de branch sem perder o que você está fazendo.
 git stash [Recomeçar jogando na "Lixeira" podendo recuperar depois]
 
 git stash list [Traz todos] 
@@ -28,4 +49,14 @@ git tag -a <nome> -m <msg> [CheckPoint de uma branch]
 
 git tag show <nome>
 git tag checkout <nome>
+//////////////////////////Compartilhamento e atualização//////////////////////
+-Encontra branches
+        git fetch -a (baixa as últimas atualizações (commits, branches, e tags) de um repositório remoto, mas não altera seu histórico local )
+
+            Exemplo:
+            Depois de executar git fetch -a, você pode usar comandos como:
+
+            °git branch -r para ver todas as branches remotas.
+            °git merge origin/<branch> para mesclar uma branch remota específica na sua branch atual.
+            °git tag para listar todas as tags, incluindo as novas que foram baixadas.
 
