@@ -85,3 +85,10 @@ git show (INF do branch atual .... log bem detalhado)
 
 git diff (ver diferença de arquivo ou branch)
 
+git shortlog (Resumo interesante  de toda branch)
+
+
+---------------------------- Administração de Repositorio ---------------------------------------
+Git clean (Iram limpar os arq que não serão Trackeados)
+    Trackeados (Aqueles que não foram dado o git add;)
+
