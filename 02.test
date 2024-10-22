@@ -60,3 +60,17 @@ git tag checkout <nome>
             °git merge origin/<branch> para mesclar uma branch remota específica na sua branch atual.
             °git tag para listar todas as tags, incluindo as novas que foram baixadas.
 
+-- Atualizar código (Git fetch + git pull)
+
+
+
+
+
+
+
+
+
+    Com o --set-upstream, você indica explicitamente para o Git qual branch remota deve ser o destino padrão para git push e git pull a partir de então.
+Quando você quer configurar automaticamente o tracking:
+
+Quando você usa git push --set-upstream, o Git configura automaticamente o "tracking" entre a sua branch local e a branch remota, o que significa que nas próximas vezes você pode simplesmente usar git push ou git pull sem precisar especificar o nome da branch.
